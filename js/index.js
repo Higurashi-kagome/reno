@@ -3,15 +3,15 @@ var index = 0;
 
 var play = document.getElementById('play');
 if(res[index]){
-    play.setAttribute('src',`/res/${res[index]}`);
+    play.setAttribute('src',`./res/${res[index]}`);
 }
 document.getElementById('prev').addEventListener('click', () => {
     if(index > 0 && res[index-1]){
-        play.setAttribute('src',`/res/${res[--index]}`)
+        play.setAttribute('src',`./res/${res[--index]}`)
     }
 });
 document.getElementById('next').addEventListener('click', () => {
     if(index < res.length - 1 && res[index+1]){
-        play.setAttribute('src',`/res/${res[++index]}`)
+        play.setAttribute('src',`./res/${res[++index]}`)
     }
 });
