@@ -1,0 +1,19 @@
+{
+  "name": "reno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Higurashi-kagome/reno.git"
+  },
+  "author": "Hao Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Higurashi-kagome/reno/issues"
+  },
+  "homepage": "https://github.com/Higurashi-kagome/reno#readme"
+}
